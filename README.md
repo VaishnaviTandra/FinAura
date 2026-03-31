@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💰 FinAura – Smart Expense & Budget Tracker
 
-## Getting Started
+FinAura is a modern financial tracking system that helps users monitor monthly expenses, manage savings, and stay within budget using automated alerts and secure infrastructure.
 
-First, run the development server:
+---
 
-```bash
+## 🎯 Key Features
+
+* 📊 Track monthly expenses & savings
+* 💡 Budget planning with threshold limits
+* 📩 Automated email alerts when budget exceeds limit
+* 🔄 Monthly budget reminders using background workflows
+* 🔐 Secure application with Arcjet protection
+
+---
+
+## 🧠 How It Works
+
+1. User sets monthly budget
+2. Expenses are tracked and updated in real-time
+3. Inngest schedules monthly budget reminders
+4. If spending exceeds threshold → email alert is triggered
+5. Users get insights to control spending and improve savings
+
+---
+
+## 🔔 Smart Alerts & Automation
+
+* Monthly budget notifications via background jobs
+* Instant alerts when expenses exceed limits
+* Helps users maintain financial discipline
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer      | Technology                             |
+| ---------- | -------------------------------------- |
+| Frontend   | Next.js                                |
+| Backend    | Next.js API Routes                     |
+| Database   | Prisma ORM                             |
+| Automation | Inngest (background jobs & scheduling) |
+| Security   | Arcjet                                 |
+
+---
+
+## ⚙️ Setup
+
+```bash id="fin1"
+git clone https://github.com/your-username/your-repo-name.git
+cd finaura
+
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🔥 Highlights
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* Combines **finance tracking + automation + security**
+* Real-world use case: **budget control & savings optimization**
+* Uses **event-driven architecture (Inngest)**
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 👩‍💻 Author
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Vaishnavi
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
